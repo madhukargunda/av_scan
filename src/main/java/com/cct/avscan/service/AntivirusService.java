@@ -8,7 +8,7 @@ public interface AntivirusService {
      * @param password The password for authentication.
      * @return True if the login is successful, false otherwise.
      */
-    boolean login(String username, String password);
+    String login(String username, String password);
 
     /**
      * Submit a file for scanning.
